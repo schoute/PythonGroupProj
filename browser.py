@@ -52,3 +52,5 @@ print("**********")
 #part 10c need to install pyton3-pip, ayt ill do it now
 #I think if still cannot get the result we expected,just ss what we have to cher.
 # isnt it a presentation?
+#Need to do presentation?Cause i know that monday last day of submission. If im not wrong yea we need to present if not
+# if not then good i guess
