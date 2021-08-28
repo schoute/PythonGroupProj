@@ -44,13 +44,3 @@ print("**********")
 # url2 = 'https://brickset.com/sets/year-2001'
 # rh = requests.get(url2, headers=headers)
 # print(rh.text)
-# its the website that refuses to output properly
-# msaybe want just start diff part??
-# ok i go ask my friend
-# maybe can ask our classmates first, cher might expect us to modify to code a little to get it to work ty
-# since this part cannot do for now, lets go do the other parts
-#part 10c need to install pyton3-pip, ayt ill do it now
-#I think if still cannot get the result we expected,just ss what we have to cher.
-# isnt it a presentation?
-#Need to do presentation?Cause i know that monday last day of submission. If im not wrong yea we need to present if not
-# if not then good i guess
