@@ -13,20 +13,22 @@ print("\t *", r.status_code)
 # # This will just get just the headers
 h = requests.head(url)
 print("Header:")
-print("Mobile")
+print("**********")
 # # This will just get just the headers
 for x in h.headers:
     print("\t ", x, ":", h.headers[x])
 print("**********")
 # # This will modify the headers user-agent
-# headers = {
-#     'User-Agent' : 'Mobile'
-# }
+headers = {
+    'User-Agent' : 'Mobile'
+}
 # # Test it on an external site
-# #
-# url2: str = 'https://brickset.com/sets/year-2001'
-# rh = requests.get(url2, headers=headers)
-# print(rh.text)
+url2: str = 'http://httpbin.org/headers'
+rh = requests.get(url2, headers=headers)
+print(rh.text, )
+
+
+
 # line 29 for some reason will fetch the whole website all over again
 # need to figure out how to output the user agent part only
 # Use the Request library
