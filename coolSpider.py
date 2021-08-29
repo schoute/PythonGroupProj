@@ -6,6 +6,13 @@ class coolSpider(scrapy.Spider):
     name = "cool_spider"
     # website url you want to parse
     start_urls = ['https://brickset.com/sets/year-2001']
+
+    # change default scrapy user-agent string to a common browser user agent
+    def start_requests(self):
+        headers= {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0'}
+        for url in self.start_urls:
+            yield scrapy.Request(url, headers=headers)
+
     # parse the website
     def parse(self, response):
         # CSS selector for images
